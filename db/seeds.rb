@@ -11,6 +11,7 @@ users = User.create!([
   { name: 'Adamas', email: 'adamas@example.com', first_name: 'Adamas', last_name: 'Monti', password: 'secretus', type: 'Admin' }
 ])
 
+
 categories = Category.create!([
   { title: 'Frontend' },
   { title: 'Backend' },
